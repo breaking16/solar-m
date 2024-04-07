@@ -161,6 +161,12 @@ ul {
   margin-bottom: 120px;
 }
 
+.info-tabs__item {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 40px;
+}
+
 .info-tabs__item--active {
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(48, 48, 48);
@@ -171,4 +177,17 @@ ul {
 }
 .info-tabs__content--active {
   display: block;
+}
+
+.info-slider {
+  max-width: 510px;
+}
+
+.info-slider__img {
+  margin-right: 40px;
+  float: left;
+}
+
+.info-slider__text {
+  padding-bottom: 15px;
 }
