@@ -45,6 +45,7 @@ ul {
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
+  margin-top: auto;
 }
 
 .header__title {
@@ -58,6 +59,15 @@ ul {
   line-height: 57px;
 }
 
+.header__button {
+  margin-top: 50px;
+  margin-bottom: auto;
+}
+
+.button__path {
+  transition: fill 0.5s;
+}
+
 .button:hover .button__path {
   fill: rgb(169, 163, 42);
 }
@@ -67,4 +77,14 @@ ul {
   line-height: 25px;
   display: inline-block;
   transform: translate(-57px, -17px);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__link {
+  padding: 0 10px;
 }
