@@ -229,6 +229,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 150px;
 }
 
 .blockquote__text {
@@ -238,4 +239,80 @@ ul {
   font-weight: 400;
   line-height: 57px;
   color: rgb(255, 255, 255);
+}
+
+.clients {
+  margin-bottom: 150px;
+}
+
+.clients-slider__box {
+  display: flex;
+}
+
+.clients-slider__box-img {
+  flex-basis: 510px;
+  margin-right: 90px;
+  margin-bottom: 30px;
+}
+
+.clients-slider__box-title {
+  max-width: 478px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.clients-slider__box-list {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.clients-slider__box-item {
+  margin-bottom: 15px;
+}
+
+.slick-arrow path {
+  transition: fill 0.5s;
+}
+
+.slick-arrow:hover path {
+  fill: rgb(169, 163, 42);
+}
+
+.steps {
+  margin-bottom: 150px;
+}
+
+.steps__inner {
+  display: flex;
+}
+
+.steps__img {
+  flex-basis: 600px;
+  object-fit: cover;
+}
+
+.steps__content {
+  margin-right: 90px;
+}
+
+.steps__list {
+  list-style: none;
+  counter-reset: number;
+}
+.steps__list-item {
+  counter-increment: number;
+}
+
+.steps__list-item::before {
+  content: "0" counter(number);
+}
+.steps__list-title {
+  margin-bottom: 2px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.steps__list-text {
 }
