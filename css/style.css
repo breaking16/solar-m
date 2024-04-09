@@ -63,6 +63,7 @@ ul {
   line-height: 87px;
   font-size: 64px;
 }
+
 .header__title span {
   display: block;
   font-size: 42px;
@@ -175,6 +176,7 @@ ul {
 .info-tabs__content {
   display: none;
 }
+
 .info-tabs__content--active {
   display: block;
 }
@@ -301,6 +303,7 @@ ul {
   list-style: none;
   counter-reset: number;
 }
+
 .steps__list-item {
   counter-increment: number;
   margin-bottom: 30px;
@@ -322,5 +325,50 @@ ul {
   line-height: 25px;
   font-weight: 700;
 }
-.steps__list-text {
+
+.footer {
+  background-image: url(../images/footer-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0 50px;
+  color: rgb(255, 255, 255);
+
+}
+
+.footer__top {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.footer__form {
+  flex-basis: 510px;
+  margin-right: 90px;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+.footer__input {
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  background-color: transparent;
+}
+
+.footer__form-btn {}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .social {
+  margin-right: -10px;
 }
