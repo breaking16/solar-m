@@ -349,8 +349,9 @@ ul {
 .footer__title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 43px;
   text-transform: uppercase;
+  margin-bottom: 60px;
 }
 
 .footer__input {
@@ -359,9 +360,32 @@ ul {
   display: block;
   width: 100%;
   background-color: transparent;
+  padding-bottom: 11px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 60px;
 }
 
-.footer__form-btn {}
+.footer__input::placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+}
+
+.footer__form-btn {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer__contacts-item {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
 
 .footer__bottom {
   display: flex;
@@ -372,3 +396,5 @@ ul {
 .footer .social {
   margin-right: -10px;
 }
+
+@media (max-width: 768px) {}
